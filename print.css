@@ -1,7 +1,7 @@
+/*print stylesheet*/
 
 body {
-  background-color:rgb(220,234,239);
-  font-family: "EB Garamond", serif;
+  font-family: "News Cycle", sans-serif;
   font-size: 12pt;
   color: #222;
 }
@@ -44,17 +44,21 @@ nav ul li{
 }
 
 section{
-  border:1pt solid #000;
-  border-width:1pt;
+  font-family: "News Cycle", sans-serif;
+  border-bottom:1pt solid #000;
   padding:5pt 10pt;
 }
 
+section:last-child {
+ border-bottom: 0px;
+}
+
 h2{
-  font-family: 'EB Garamond', serif;
+  font-family: "News Cycle", sans-serif;
 }
 
 h3{
-  font-family: 'EB Garamond', serif;
+  font-family: "News Cycle", sans-serif;
 }
 
 a{
